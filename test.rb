@@ -2,7 +2,7 @@ require 'http'
 require 'json'
 
 response = HTTP.post("https://slack.com/api/chat.postMessage", params: {
-  token: ENV['SLACK_API_TOKEN'],
+  token: ENV['SLACK_API_TOKEN_JCC'],
   channel: "@yakyuzukiueta",
   text: "Bot Test",
   as_user: true
