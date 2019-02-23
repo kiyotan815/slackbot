@@ -1,1 +1,1 @@
-ruby slack_bot.rb
+app: bundle exec ruby slack_bot.rb
